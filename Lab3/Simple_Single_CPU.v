@@ -21,7 +21,7 @@ module Simple_Single_CPU (
   input clk_i;
   input rst_n;
 
-  //Internal Signles
+  //Internal Signals
   wire [32-1:0] incremented_pc;
   wire [32-1:0] pc_to_instr;
   wire [32-1:0] instruction_output;
